@@ -1,0 +1,61 @@
+head{
+    display: flex;
+    vertical-align: top;
+}
+#nav{
+    display: flex;
+    justify-content:space-between;
+    position:relative;
+    padding: 0 5vw;
+    
+}
+
+.logo{
+    width: 10%;
+    vertical-align: middle;
+    margin-right: 1mv;
+}
+
+nav ul li{
+vertical-align: middle;
+font-family:fantasy;
+list-style: none;
+display: inline-block;
+margin-left: 100px;
+}   
+
+#herospace{
+    width: 60vw;
+    margin-left: 20vw;
+    display: grid;
+    justify-items: center;
+
+}
+#herospace p{
+    font-weight: bold; 
+    width: 30vw;
+    margin-left: 11vw;
+    
+}
+#img img{
+    padding: 1px 20vw;
+    width: 50%;
+    border-radius: 50%;
+}
+    
+
+footer{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    background-color: mediumvioletred;
+}
+footer ul li {
+    display: inline-block;
+    justify-content:space-around;
+    font-family: fantasy;
+    margin-right: 150px;
+    margin-left: 100px;
+    color: white;
+    list-style: none;
+    }   
