@@ -1,48 +1,52 @@
-head{
-    display: flex;
-    vertical-align: top;
+body{
+    background-color: lightyellow;
 }
 #nav{
     display: flex;
     justify-content:space-between;
     position:relative;
+    padding:0 5vw;
+    align-content: center;
     
+
 }
 
-.logo{
-    width: 10%;
-    vertical-align: middle;
-    margin-right: 1mv;
+.logo img{
+    width: 50%;
+    border-radius: 20px;
 }
-
+nav ul{
+    display: flex;
+    align-items: center;
+}
 nav ul li{
-vertical-align: middle;
 font-family:fantasy;
 list-style: none;
-display: inline-block;
-margin-left: 100px;
+margin-left: 3vw
 }   
 
-body{
-    background-color: lightyellow;
-}
+
 
 #herospace{
-    width: 60vw;
-    margin-left: 15vw;
-    display: grid;
-    justify-items: center;
-
+    width: 100vw;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #herospace p{
     font-weight: bold; 
     width: 30vw;
-    margin-left: 11vw;
+    text-align: justify;
     
+
+}
+#img {
+    width: 376px;
 }
 #img img{
-    padding: 1px 20vw;
-    width: 50%;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 h1{
@@ -52,7 +56,9 @@ h1{
 }
 
 #workspace{
-    display: flex;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;  
     
 }
 
@@ -61,16 +67,11 @@ h3{
     font-family: fantasy;
     font-size: 35px;
 }
-
-.work1 .work2 .work3{
-    width: 10vw;
-    padding-top: 10vw;
-    
-}
+  
 .newClass{
     width: 40vw;
 }
-#workspace h3{
+#workspace .newClass h3{
     
     align-items: center;
     margin-left: 100px;
@@ -94,15 +95,15 @@ h3{
 .grid-container{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: lightseagreen;
     row-gap: 20px;
     column-gap: 20px;
+    padding: 0 5vw;
 }
 .grid-item{
     display: relative;
 }
-.skill2{
-    width: ;
-}
+
 .grid-container h3{    
     width: 100%;
     left: 0; 
@@ -115,7 +116,10 @@ h3{
     margin: 5%;
     z-index: 3
 }  
-
+.skill2 img{
+    height: 236px;
+    width: auto;
+}
 footer{
     position: relative;
     display: flex;
